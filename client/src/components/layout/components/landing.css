@@ -1,0 +1,116 @@
+.button {
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+  position: sticky;
+  margin-left: 15px;
+  transition-duration: 0.4s;
+  letter-spacing: 1px;
+}
+
+#scrolldowntoproduct {
+  margin-top: 20px;
+  margin-left: 90px;
+  color: aliceblue;
+}
+
+.landingwrapper {
+  display: grid;
+  grid-template-columns: 650px 700px;
+  grid-gap: 0px;
+  background-color: #0e1023;
+  background-size: contain;
+  color: #444;
+  height: 750px;
+  position: relative;
+  margin-top: 0px;
+}
+
+.animwrap {
+  margin-top: 125px;
+  border-radius: 30px;
+  margin-left: 100px;
+}
+
+.landinghead {
+  margin-top: 80px;
+  margin-left: 120px;
+}
+.heading {
+  margin-top: 105px;
+  text-align: center;
+  font-size: 39px;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  height: 80px;
+  margin-left: 30px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+.brief {
+  margin-top: 50px;
+  font-size: 21px;
+  text-align: center;
+  color: white;
+  max-width: 100% !important;
+  height: 120px;
+  margin-left: 30px;
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+}
+
+.buttongrid {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  background-color: whitesmoke;
+  color: #444;
+  height: 0.000001px;
+  margin-left: 0px;
+}
+
+.demo {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #f58a63; /* Green */
+  color: white;
+}
+
+.talk {
+  text-align: center;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@media all and (max-width: 550px) {
+  .landinganim {
+    display: none;
+  }
+  .landinghead {
+    margin-left: 0px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .brief {
+    font-size: 20px;
+    width: 410px;
+    margin-right: 20px;
+  }
+  .orangebar {
+    width: '30px';
+  }
+}

@@ -1,44 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Type 'npm install' to install all the packages .
 
-## Available Scripts
+dependencies: {
+axios: ^0.18.0, // For making requests to the backend
+bootstrap: ^4.5.0, // Styling
+classnames: ^2.2.6,  
+jwt-decode: ^2.2.0, // to decode JWT token
+react: ^16.6.3,
+react-bootstrap: ^1.0.1,
+react-dom: ^16.6.3,  
+react-icons: ^3.10.0, // to import different icons
+react-notifications: ^1.6.0, // for notifications (used in forgot password)
+react-redux: ^5.1.1, // for state management
+react-reveal: ^1.2.2, // animations
+react-router-dom: ^4.3.1,
+react-scripts: ^2.1.1,
+react-scroll: ^1.7.16,
+react-simple-chatbot: ^0.6.1, // react chatbot
+react-slideshow-image: ^1.5.3, // react slideshow (corousel)
+react-typical: ^0.1.3, // for typing animation
+redux: ^4.0.1,
+redux-thunk: ^2.3.0,
+styled-components: ^5.1.1
+},
 
-In the project directory, you can run:
+There are 7 Major Components which i have imported in the src/App.js file
+-Navbar (In components/layout/Navbar.jsx)
+-Home (In components/layout/Home.jsx)
+-Footer (In components/layout/footer.jsx)
+-ChatBot (In components/chatbot/chatform.jsx)
+-Team (In components/layout/team.jsx)
+-ContactUs (In components/layout/contactus.jsx)
+-Login/Register (In components/auth/login.js and register.js)
 
-### `npm start`
+All the images and gif are in the src/components/layout/components/animations
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Navbar
+   Used to navigate to other pages
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Home
+   It has 5 components inside it
+   -Landing (In components/layout/components/landing.jsx)
+   -Cards (In components/layout/components/cards.jsx)
+   -Slides (In components/layout/components/slides.jsx)
+   -Products (In components/layout/components/products.jsx)

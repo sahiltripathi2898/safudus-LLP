@@ -1,0 +1,55 @@
+.nav-item {
+  margin-left: 20px;
+  margin-right: 15px;
+  font-size: larger;
+  margin-top: 8px;
+}
+
+.logo {
+  margin-left: 180px;
+}
+
+.loginbtn {
+  border-color: antiquewhite;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(49, 134, 113);
+  transition-duration: 0.5s;
+  margin-top: 0px;
+}
+
+.loginbtn:hover {
+  background-color: #f58a63;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-item:hover {
+  background-color: cadetblue;
+}
+
+.nav-link:hover {
+  border-bottom: solid 2px cadetblue;
+}
+
+.nav-link {
+  margin-right: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media all and (max-width: 550px) {
+  .logo {
+    margin-left: 120px;
+  }
+  #navbarNav {
+    background-color: #0e1023;
+    height: 270px;
+  }
+}

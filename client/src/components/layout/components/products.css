@@ -1,0 +1,125 @@
+.productop {
+  font-size: 40px;
+  margin-top: 35px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+.productbottom {
+  font-size: 20px;
+  text-align: center;
+}
+.productmain {
+  height: 1800px;
+}
+.producthead {
+  width: 100%;
+  height: 100px;
+
+  position: relative;
+}
+
+.productwrapper1 {
+  display: grid;
+  grid-template-columns: 750px 500px;
+  grid-gap: 150px;
+  color: #444;
+  height: 550px;
+}
+
+.videoproduct1 {
+  margin-left: 100px;
+  border: 0px solid black;
+  max-height: 400px;
+  margin-top: 80px;
+  border-radius: 10px;
+  box-shadow: 0 -12.8px 2.2px rgba(206, 69, 69, 0.034),
+    0 16.7px 5.3px rgba(0, 0, 0, 0.048), 0 -12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(150, 67, 67, 0.086),
+    0 100px 80px rgba(189, 63, 63, 0.12);
+}
+
+.productwrapper2 {
+  display: grid;
+  grid-template-columns: 600px 750px;
+  grid-gap: 110px;
+
+  color: #444;
+  height: 550px;
+}
+
+.videoproduct2 {
+  margin-left: 100px;
+  border: 0px solid black;
+  height: 400px;
+  margin-top: 80px;
+  border-radius: 10px;
+  box-shadow: 0 -12.8px 2.2px rgba(206, 69, 69, 0.034),
+    0 16.7px 5.3px rgba(0, 0, 0, 0.048), 0 -12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(150, 67, 67, 0.086),
+    0 100px 80px rgba(189, 63, 63, 0.12);
+}
+
+.iframe-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.iframe-container iframe {
+  margin-left: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
+
+@media all and (max-width: 550px) {
+  .productmain {
+    margin-top: 1000px;
+    margin-bottom: 850px;
+  }
+  .productwrapper1 {
+    display: block;
+    margin-bottom: 100px;
+    padding: 5px;
+  }
+  .videoproduct1 {
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .b1 img {
+    display: none;
+  }
+  .b1 {
+    margin-left: 20px;
+    width: 350px;
+  }
+
+  .productwrapper2 {
+    display: block;
+    padding: 5px;
+    margin-bottom: 350px;
+  }
+  .videoproduct2 {
+    margin-left: 5px;
+    margin-top: 0px;
+    height: 330px;
+  }
+  .a2 img {
+    display: none;
+  }
+  #productno1 {
+    margin-top: 70px;
+  }
+  #productno2 {
+    margin-top: 200px;
+    height: 507px;
+  }
+  .productdetail {
+    font-size: 8px;
+  }
+}

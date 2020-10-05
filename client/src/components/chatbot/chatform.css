@@ -1,0 +1,27 @@
+.speech-bubble {
+  position: relative;
+  background: black;
+  border-radius: 0.4em;
+  width: 120px;
+  height: 38px;
+}
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left-color: black;
+  border-right: 0;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+@media all and (max-width: 550px) {
+  .chatbotmobilever {
+    height: '200px';
+  }
+}

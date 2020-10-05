@@ -1,0 +1,24 @@
+.contentfooter {
+  margin-left: 100px;
+}
+
+#footer {
+  margin-top: 0px;
+  background-color: #121b2c;
+}
+
+.footer-copyright {
+  margin-top: 80px;
+}
+
+.hrfooter {
+  background-color: #f58a63;
+  border: 1px solid #f58a63;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 550px) {
+  .contentfooter {
+    margin-left: 0px;
+  }
+}
